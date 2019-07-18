@@ -1,0 +1,25 @@
+{
+  "name": "@almightyzero/epoch",
+  "version": "1.0.0",
+  "description": "Simple cli to do some basic datetime conversion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "epoch": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jroyal/epoch.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jroyal/epoch/issues"
+  },
+  "homepage": "https://github.com/jroyal/epoch#readme",
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}
