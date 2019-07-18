@@ -1,6 +1,6 @@
 {
   "name": "@almightyzero/epoch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple cli to do some basic datetime conversion",
   "main": "index.js",
   "scripts": {

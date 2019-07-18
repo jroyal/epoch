@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const moment = require("moment");
 
 let form = "dddd, MMMM D YYYY, h:mm:ss a z";
