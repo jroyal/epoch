@@ -4,6 +4,10 @@ const moment = require("moment");
 const form = "dddd, MMMM D YYYY, h:mm:ss a z";
 
 function print(ts) {
+  if (ts.length == 13) {
+    console.log("probably milliseconds");
+    ts = ts.substring(0, 10);
+  }
   let t = moment.unix(ts);
   console.log(t.utc().format(form));
   console.log(t.local().format(form));
